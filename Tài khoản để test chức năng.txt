@@ -1,0 +1,6 @@
+ Tài khoản để test chức năng
+
+username, password, role 
+('admin', '123', 'ADMIN'),
+('chutro', '123', 'LANDLORD')
+('sinhvien', '123', 'STUDENT')
