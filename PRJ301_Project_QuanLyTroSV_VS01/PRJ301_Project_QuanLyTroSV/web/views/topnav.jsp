@@ -4,12 +4,45 @@
     Author     : toanl
 --%>
 
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%--
+    Shared header include.
+    This file intentionally avoids rendering footer markup.
+--%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
+<style>
+    .site-header {
+        background-color: #ffffff;
+        border-bottom: 1px solid #dee2e6;
+        padding: 12px 0;
+    }
+    .site-header__brand {
+        font-weight: 800;
+        color: #2c3e50;
+        letter-spacing: -0.3px;
+    }
+    .site-header__subtitle {
+        color: #6c757d;
+        font-size: 0.9rem;
+        margin-left: 12px;
+    }
+</style>
+<%-- 
+    Document   : topnav
+    Created on : Feb 24, 2026, 4:31:02 AM
+    Author     : toanl
+--%>
+
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm mb-4">
     <div class="container">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -41,3 +74,4 @@
         </div>
     </div>
 </nav>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

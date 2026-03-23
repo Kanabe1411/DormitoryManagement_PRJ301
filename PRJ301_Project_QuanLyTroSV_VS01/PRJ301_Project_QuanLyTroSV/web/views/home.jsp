@@ -116,7 +116,7 @@
 
         <footer class="text-center bg-white border-top">
             <div class="container">
-                &copy; 2026 <strong>Money Flow</strong>. Thiết kế bởi Kana & Team.
+                &copy; 2026 <strong>Dormitory Management System</strong>. Thiết kế bởi Kana & Team.
             </div>
         </footer>
 
